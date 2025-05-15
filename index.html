@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Address Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#section1">Home</a></li>
+      <li><a href="#section2">Address Form</a></li>
+    </ul>
+  </nav>
+
+  <section id="section1" class="section">
+    <h1>Welcome to Our Form Page</h1>
+    <p>This is the introductory section with some content.</p>
+  </section>
+
+  <section id="section2" class="section">
+    <h2>Dynamic Address Form</h2>
+    <form id="address-form">
+      <label for="country">Country:</label>
+      <select id="country">
+        <option value="">Select Country</option>
+      </select>
+
+      <label for="state">State:</label>
+      <select id="state">
+        <option value="">Select State</option>
+      </select>
+
+      <label for="city">City:</label>
+      <select id="city">
+        <option value="">Select City</option>
+      </select>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
